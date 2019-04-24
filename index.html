@@ -2,38 +2,33 @@
 <html>
   <head>
     <title>HTML Tester | Day One</title>
+    <link href="style.css"
+    rel="stylesheet" type="text/css">
   </head>
 
   <body>
     <div>
-    <header>
-      <h1> Rhode Island Craigslist </h1>
-    </header>
+      <h1 id="h1"> rhode island </h1>
 
     <br />
     <main>
-    <aside>
+    <aside class="box" id="left-aside">
       Left Side Bar
-      <h2> <a href="#"> Craigslist </h2> </a>
+      <h2> <a href="#"> craigslist </h2> </a>
       <form action="/action_page.php">
   Search <input type="text" name="search"><br>
   <input type="submit" value="Submit">
   <br />
   <img src="calendar.jpg" alt="calendar"/>
   <br />
-  <li>
-    <a href="#"/>
-  </li>
-    
 
 </form>
-
 
     </aside>
     <br />
     <br />
 
-    <aside>
+    <aside class="box" id="right-aside">
       Right Side Bar
       <br />
 
@@ -49,7 +44,9 @@
 </datalist>
     </aside>
 
-    <section> <h2>Community</h2>
+    <div class="grid-container">
+      <div class="item1">
+    <section> <h2 id="h2">Community</h2>
     <ul>
       <li>
         <a href="https://providence.craigslist.org/d/activity-partners/search/act"> Activity</a>
@@ -58,70 +55,78 @@
       </li>
     </ul>
   </section>
+</div>
 
-
-    <section> <h2>Services</h2>
+  <div class="item2">
+    <section> <h2 id="h2">Services</h2>
   <ul>
     <li>
       <a href="#"> Link 1</a>
     </li>
   </ul>
 </section>
+</div>
 
-
-  <section> <h2>Discussion Forums</h2>
+<div class="item3">
+  <section> <h2 id="h2">Discussion Forums</h2>
     <ul>
       <li>
       <a href="#"> Link 1</a>
       </li>
     </ul>
   </section>
+</div>
 
-
-    <section> <h2> Housing</h2>
+  <div class="item4">
+    <section> <h2 id="h2"> Housing</h2>
       <ul>
         <li>
         <a href="#"> Link 1</a>
         </li>
       </ul>
     </section>
+  </div>
 
-
-    <section> <h2>For Sale</h2>
+  <div class="item5">
+    <section> <h2 id="h2">For Sale</h2>
       <ul>
         <li>
         <a href="#"> Link 1</a>
         </li>
       </ul>
     </section>
+  </div>
 
-
-    <section> <h2>Jobs</h2>
+  <div class="item6">
+    <section> <h2 id="h2">Jobs</h2>
       <ul>
         <li>
         <a href="#"> Link 1</a>
         </li>
       </ul>
     </section>
+  </div>
 
-
-      <section> <h2>Gigs</h2>
-        <ul>
-          <li>
+    <div class="item7">
+    <section> <h2 id="h2">Gigs</h2>
+      <ul>
+        <li>
           <a href="#"> Link 1</a>
-          </li>
-        </ul>
-      </section>
+        </li>
+      </ul>
+    </section>
+  </div>
 
-
-        <section> <h2>Resumes</h2>
-        </section>
+    <div class="item8">
+    <section> <h2 id="h2">Resumes</h2>
+    </section>
+  </div>
 
 </main>
 
 </div>
 
-<footer>
+<footer class="footer" id="footer">
   Copyright
 
   <a href="#"> Footer link </a>
